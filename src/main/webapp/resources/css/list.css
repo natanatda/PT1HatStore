@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+*{
+    margin:0px;
+    padding:0px;
+}
+@font-face {
+    font-family: 'TheJamsil5Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    width:100%;
+    font-family: 'TheJamsil5Bold', sans-serif;
+    background-color: #ffffff;
+    font-size: 1em;
+    line-height: 1.5;
+    color: #212121;
+  }
+  
+  /* 링크 */
+  a {
+    color: #2196F3;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* 제목 */
+  h1{
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    padding: 40px 40px 40px 40px;
+  }
+  h1 a {
+    color: #212121;
+  }
+  h1 a:hover{
+    text-decoration: none;
+  }
+  h2 {
+    color: #212121;
+    font-size: 1.7em;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #212121;
+  }
+  h3 {
+    color: #212121;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* 메뉴바 */
+  .menuBar {
+    background-color: #212121;
+    color: #ffffff;
+  }
+  .menuBar ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  .menuBar ul li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+  }
+  .menuBar ul li a:hover {
+    background-color: #2196F3;
+  }
+  .menuBar ul ul {
+    display: none;
+    position: absolute;
+    /*top: 100%;
+    left: 0;*/
+    background-color: #212121;
+    width:180px;
+    padding: 0;
+    border: none;
+  }
+
+  .menuBar ul ul li {
+    display: block;
+    position: relative;
+  }
+  .menuBar ul ul li a {
+    padding: 12px 40px;
+    color: #ffffff;
+    width: auto;
+    display: block;
+    white-space: nowrap;
+    text-align: left;
+  }
+  .menuBar ul ul li a:hover {
+    background-color: #2196F3;
+  }
+  .menuBar ul ul ul {
+    top: 0;
+    left: 100%;
+  }
+ .menuBar li:hover > ul {
+    display: block;
+  }
+  
+  /* 테이블 */
+  table {
+    border-collapse: collapse;
+    width: 80%;
+  }
+  th, td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #212121;
+  }
+  th {
+    background-color: #2196F3;
+    color: #ffffff;
+  }
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }

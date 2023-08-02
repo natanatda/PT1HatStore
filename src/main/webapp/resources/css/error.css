@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body{
+	box-sizing: border-box;
+	font-family: Consolas, monospace;
+}
+.er404 {
+	margin: 300px 0px;
+	padding: 20px 0px;
+	text-align: center;
+	color: #212121;
+}
+.er500{
+	margin: 300px 0px;
+	padding: 20px 0px;
+	text-align: center;
+	color: #212121;
+}
+p{
+	font-size: 13px
+}
+
+a {
+  text-decoration: none;
+  color: #212121;
+} 

@@ -1,0 +1,44 @@
+@charset "UTF-8";
+@font-face {
+	font-family: 'TheJamsil5Bold';
+	src:
+		url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2')
+		format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* brandList 클래스에 대한 스타일 지정 */
+.brandList {
+	border:1px soild #212121;
+	display: flex;
+	flex-wrap: wrap; /* 너비를 벗어나면 줄 바꿈 */
+}
+
+/* h3 요소에 대한 스타일 지정 */
+.brandList h3 {
+	font-size: 1.1em; /* 글자크기 지정 */
+	font-weight: bold; /* 굵은 글자체 지정 */
+}
+
+/* form  */
+.brandList form {
+	margin: 10px; /* 항목 간격 조정 */
+}
+
+/* submit 버튼 */
+.brandList input[type="submit"] {
+	font-family: 'TheJamsil5Bold', sans-serif;
+	background-color: #2196F3;
+	color: #fff;
+	font-weight: bold;
+	border: none;
+	padding: 10px;
+	font-size: 0.8em; /* 글자크기 지정 */
+	cursor: pointer; /* 마우스 커서를 손가락 모양으로 변경 */
+}
+
+/* submit 버튼에 마우스를 올렸을 때 */
+.brandList input[type="submit"]:hover {
+	background-color: #005ea1;
+}

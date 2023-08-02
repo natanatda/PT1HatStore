@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+*{
+    margin:0px;
+    padding:0px;
+}
+@font-face {
+    font-family: 'TheJamsil5Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: 'TheJamsil5Bold', sans-serif;
+  }
+
+#logoutBt > a{
+		background-color: #212121;
+		color: #ffffff;
+		font-size: 1em;
+		padding:10px;
+}
+#logoutBt > a:hover{
+		background-color: #2196F3;
+		color: #ffffff;
+}
+#logoutBt {
+	position: absolute;
+	top: 55px;
+	right: 20px;
+	margin:10px;
+	width:100px;
+	text-align: center;
+}

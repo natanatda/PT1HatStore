@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+.productTable{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.productTable th,
+.productTable td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+  display: inline-block;
+  width: 15%;
+  vertical-align: middle;
+}
+
+.productTable th {
+  background-color: #f2f2f2;
+}

@@ -1,0 +1,214 @@
+@font-face {
+	font-family: 'TheJamsil5Bold';
+	src:
+		url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2')
+		format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	font-family: 'TheJamsil5Bold', sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+header {
+	background-color: #fff;
+	color: #212121;
+	padding: 0px;
+}
+
+h1 {
+	margin: 0;
+	text-align: center;
+	font-size: 3em;
+	padding: 40px 40px 10px 40px;
+}
+
+.top1 {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 10px;
+	padding: 20px;
+}
+
+.top1 input[type="text"] {
+	width: 500px;
+	height: 30px;
+	padding: 5px;
+	border: solid 1px #212121;
+}
+
+.top1 input[type="submit"] {
+	background-color: #2196F3;
+	width: 100px;
+	height: 40px;
+	color: #fff;
+	border: none;
+	padding: 5px;
+	cursor: pointer;
+	font-weight: bold;
+	font-size:1.2em;
+}
+
+.login ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+.login li {
+	margin-left: 10px;
+	padding: 5px;
+	font-size: 1em;
+}
+
+.login li:hover {
+	background-color: #2196F3;
+	color: #fff;
+}
+
+.login a:hover {
+	color: #fff;
+}
+
+.login li:first-child {
+	margin-left: 0;
+}
+
+.login a {
+	color: #212121;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#product_brand {
+	text-align: center;
+	margin: 0px;
+}
+
+#product_brand ul {
+	list-style: none;
+	padding: 20px;
+	display: flex;
+}
+
+#product_brand li {
+	margin-right: 10px;
+	font-weight: bold;
+	font-size: 1.5em;
+	padding: 10px;
+}
+
+#product_brand li:last-child {
+	margin-right: 0;
+}
+
+#product_brand a {
+	text-decoration: none;
+	color: #212121;
+}
+
+#product_brand a:hover {
+	color: #2196F3;
+}
+
+#menu_bar {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	color:#ffffff;
+	background-color: #212121;
+	font-size: 1em;
+}
+
+#menu_bar ul {
+	width: 100%;
+	display: flex;
+	list-style: none;
+	justify-content: space-between;
+	margin: 0;
+	padding: 0;
+}
+
+#menu_bar li {
+	/*display: inline-block;*/
+	/*margin-right: 10px;*/
+	position: relative;
+	font-weight: lighter;
+	width:100%;
+	text-align:center;
+}
+
+#menu_bar>ul>li {
+	font-weight: bold;
+	background-color: #212121;
+}
+
+#menu_bar a {
+	color: #ffffff;
+	text-decoration: none;
+	padding: 20px 10px;
+	display: block;
+}
+
+#menu_bar ul ul {
+	display: none;
+	position: absolute;
+	width:100%;
+	/*top: 100%;
+	left: 0;*/
+	background-color: #212121;
+	text-align:center;
+}
+
+#menu_bar ul ul li {
+	display: block;
+	text-align:center;
+	width:100%;
+}
+
+#menu_bar ul li a:hover {
+	background-color: #2196F3;
+}
+#menu_bar ul ul li a:hover {
+	background-color: #2196F3;
+}
+
+#menu_bar a:hover {
+	color: #fff;
+}
+
+#menu_bar li:hover>ul {
+	display: block;
+}
+
+.footerB{
+	background-color: #212121;
+	color:#ffffff;
+	font-size:0.8em;
+	padding:10px;
+}
+.footerB a{
+	text-decoration:none;
+	color:#ffffff;
+}
+.footerB a:link{
+	text-decoration:none;
+	color:#ffffff;
+}
+.footerB a:hover{
+	text-decoration:none;
+	color:#2196F3;
+}
+.footerB a:active{
+	text-decoration:none;
+	color:#FEFF86;
+}
+.footerB a:visited{
+	text-decoration:none;
+	color:#ffffff;
+}
